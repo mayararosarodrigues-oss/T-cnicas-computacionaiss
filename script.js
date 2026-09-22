@@ -167,3 +167,8 @@ function dadoD6() {
 }
 
 console.log(dadoD6());
+export function aleatorio (lista){
+    const posicao = Math.floot(Math.random()* lista.length);
+    return lista[posicao];
+    import {aleatorio} from ‘./aleatorio.js’;
+import {perguntas} from ‘./perguntas.js;
