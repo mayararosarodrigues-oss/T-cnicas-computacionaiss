@@ -155,4 +155,10 @@ return unidades[numero];
 }
 
 console.log(unidadeEscolhida(0));
+function respostaSelecionada(opcaoSelecionada){
+        const afirmacoes = aleatorio(opcaoSelecionada.afirmacao);
+        historiaFinal += afirmacoes + " ";
+        atual++;
+        mostraPergunta();
+}
 
