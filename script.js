@@ -230,3 +230,13 @@ function iniciaJogo() {
 }
 substituiNome();
 // removemos o mostraPergunta();
+function iniciaJogo() {
+atual = 0;
+historiaFinal = "";
+telaInicial.style.display = 'none';
+caixaPerguntas.classList.remove("mostrar");
+caixaAlternativas.classList.remove("mostrar");
+caixaResultado.classList.remove("mostrar");
+mostraPergunta();
+}
+<button class="iniciar-btn">Iniciar</button>
