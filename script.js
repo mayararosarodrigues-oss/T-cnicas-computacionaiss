@@ -182,3 +182,6 @@ export function aleatorio (lista){
 }
 
 export const nome = aleatorio(nomes);
+const escola = "Alura Start";
+
+console.log(`Eu estudo na ${escola}`);
